@@ -215,8 +215,33 @@
     </section>
     <section>
       <div class="px-[24px] py-[64px] 2xl:px-[200px] 2xl:py-[80px]">
-        <img src="./images/cross-platform-Small.png" alt="" class="2xl:hidden">
-        <img src="./images/cross-platform-big.png" alt="" class="hidden 2xl:block">
+        <div class="relative left-0 h-[480px] w-[100%] rounded-xl flex justify-center items-center">
+          <div class="bg-[#004741] h-[100%] w-[100%] opacity-70 absolute rounded-xl"></div>
+          <img src="./images/phone-laptop-image.png" alt="" class="absolute left-0 -z-10 object-cover rounded-xl h-[100%] w-[100%]">
+          <div class="flex flex-col gap-[32px] w-[279px] 2xl:w-[611px] relative text-white items-center ">
+            <div class="flex gap-[8px] items-center">
+              <img src="./icons/phone-icon.png" alt="icon" class="h-[24px] w-[24px] ">
+              <p class="text-[18px] ">Cross-platform</p>
+            </div>
+            <div class="2xl:px-[80px]">
+              <p class="text-[24px] 2xl:text-[40px] text-center">Download our app now to get on-the-go access</p>
+            </div>
+            <div class="w-[100%] flex flex-col  gap-[20px] 2xl:flex-row 2xl:px-[50px] ">
+              <div class="bg-white px-[20px] py-[12px] w-[100%] rounded-[6px] group hover:bg-[#427470] hover:cursor-pointer transition-all duration-300 flex justify-center items-center 2xl:h-[56px] ">
+                <div class="flex gap-[10px] justify-center items-center">
+                  <img src="./icons/apple-icon.png" alt="apple-icon" class="h-[20px] w-[16.5px]">
+                  <p class="text-black text-[14px]  group-hover:text-white ransition-all duration-500  ">iOS App Coming Soon</p>
+                </div>
+              </div>
+              <div class="bg-white px-[20px] py-[12px] w-[100%] rounded-[6px] group hover:bg-[#004741] hover:cursor-pointer transition-all duration-300 flex justify-center 2xl:h-[56px]">
+                <div class="flex gap-[10px] justify-center items-center ">
+                  <img src="./icons/playStore-icon.png" alt="playStore-icon" class="h-[20px] w-[18.6px]"> 
+                  <p class="text-black text-[14px] group-hover:text-white transition-all duration-300">Android App Coming Soon</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
     <section>
@@ -419,7 +444,5 @@
       </div>
     </footer>
   </div>
-
-
 </body>
 </html>
